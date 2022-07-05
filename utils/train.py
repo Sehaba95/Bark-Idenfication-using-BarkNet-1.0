@@ -15,7 +15,8 @@ def train(model,
           output_file,
           writer,
           epoch):
-    model.train()  # Set model to training mode
+    # Set model to training mode
+    model.train()  
     running_loss = 0.0
     running_corrects = 0
 
