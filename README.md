@@ -21,11 +21,33 @@ Here are the obtained results:
 
 Model | TOP-1 Accuracy | TOP-5 Accuracy
 --- | --- | ---
-MobileNet V2 | 00.00% | 00.00% 
-MobileNet V3 | 00.00% | 00.00% 
-EfficientNet-B0 | 00.00% | 00.00% 
-MobileViT | 00.00% | 00.00% 
+MobileNet V2 | 78.83% | 97.69%
+MobileNet V3 | 80.42% | 97.84% 
+EfficientNet-B0 | 80.69% | 97.54%
+MobileViT | 79.35% | 97.92%
 
+# Loss and accuracy training 
+
+## MobileNet V2
+
+<img src="utils/plots/BarkNet_MobileNet2_Loss-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileNet2_Accuracy-1.jpg" width="128"/>
+
+## MobileNet V3
+
+<img src="utils/plots/BarkNet_MobileNet3_Loss-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileNet3_Accuracy-1.jpg" width="128"/>
+
+
+## EfficientNet-B0
+
+<img src="utils/plots/BarkNet_EfficientNet-B0_Loss-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_EfficientNet-B0_Accuracy-1.jpg" width="128"/>
+
+## MobileViT
+
+<img src="utils/plots/BarkNet_MobileViT_Loss-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileViT_Accuracy-1.jpg" width="128"/>
 
 # How to train the models on your own machine 
 
@@ -37,10 +59,13 @@ Run the project in background
     nohup python main.py --model_name MobileViT > mobilevit_nohup.out &
 
 
-At the same time, you can run tensorboard to track training 
+At the same time, you can run the following command to visualize the loss and accuracy while trainig using tensorboard
 
     tensorboard --logdir=utils/logs/runs/ --bind_all
 
+Here how it looks like to visualize the training loss and accuracy
+
+<img src="utils/plots/TensorBaord.png" width="128"/>
 
 
 
