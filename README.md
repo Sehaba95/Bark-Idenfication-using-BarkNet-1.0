@@ -65,7 +65,7 @@ At the same time, you can run the following command to visualize the loss and ac
 
 Here how it looks like to visualize the training loss and accuracy
 
-<img src="utils/plots/TensorBaord.png" width="500" height="600"/>
+<img src="utils/plots/TensorBaord.png" width="600" height="600"/>
 
 
 
