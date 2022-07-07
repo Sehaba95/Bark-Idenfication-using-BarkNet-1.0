@@ -59,7 +59,7 @@ Run the project in background
     nohup python main.py --model_name MobileViT > mobilevit_nohup.out &
 
 
-At the same time, you can run the following command to visualize the loss and accuracy while trainig using tensorboard
+While the models are training, you can run the following command to visualize the training loss and accuracy using tensorboard
 
     tensorboard --logdir=utils/logs/runs/ --bind_all
 
