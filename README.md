@@ -30,24 +30,24 @@ MobileViT | 79.35% | 97.92%
 
 ## MobileNet V2
 
-<img src="utils/plots/BarkNet_MobileNet2_Loss-1.jpg" width="128"/>
-<img src="utils/plots/BarkNet_MobileNet2_Accuracy-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileNet2_Loss-1.jpg" width="512"/>
+<img src="utils/plots/BarkNet_MobileNet2_Accuracy-1.jpg" width="512"/>
 
 ## MobileNet V3
 
-<img src="utils/plots/BarkNet_MobileNet3_Loss-1.jpg" width="128"/>
-<img src="utils/plots/BarkNet_MobileNet3_Accuracy-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileNet3_Loss-1.jpg" width="480"/>
+<img src="utils/plots/BarkNet_MobileNet3_Accuracy-1.jpg" width="480"/>
 
 
 ## EfficientNet-B0
 
-<img src="utils/plots/BarkNet_EfficientNet-B0_Loss-1.jpg" width="128"/>
-<img src="utils/plots/BarkNet_EfficientNet-B0_Accuracy-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_EfficientNet-B0_Loss-1.jpg" width="360"/>
+<img src="utils/plots/BarkNet_EfficientNet-B0_Accuracy-1.jpg" width="360"/>
 
 ## MobileViT
 
-<img src="utils/plots/BarkNet_MobileViT_Loss-1.jpg" width="128"/>
-<img src="utils/plots/BarkNet_MobileViT_Accuracy-1.jpg" width="128"/>
+<img src="utils/plots/BarkNet_MobileViT_Loss-1.jpg" width="256"/>
+<img src="utils/plots/BarkNet_MobileViT_Accuracy-1.jpg" width="256"/>
 
 # How to train the models on your own machine 
 
