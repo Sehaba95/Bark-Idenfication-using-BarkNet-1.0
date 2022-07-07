@@ -30,8 +30,8 @@ MobileViT | 79.35% | 97.92%
 
 ## MobileNet V2
 
-<img src="utils/plots/BarkNet_MobileNet2_Loss-1.jpg" width="512"/>
-<img src="utils/plots/BarkNet_MobileNet2_Accuracy-1.jpg" width="512"/>
+<img src="utils/plots/BarkNet_MobileNet2_Loss-1.jpg" />
+<img src="utils/plots/BarkNet_MobileNet2_Accuracy-1.jpg" />
 
 ## MobileNet V3
 
